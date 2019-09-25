@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TemperatureActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:text="Enter the Value of Celsius"
+        />
+    <EditText
+        android:id="@+id/etCelsius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the Value"
+        android:textAlignment="center"
+        android:layout_margin="20dp"
+        />
+    <Button
+        android:id="@+id/btnCelsius"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Conversion To Fahrenheit"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the Value of Fahrenheit"
+        android:layout_margin="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnFahrenheit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:text="Conversion to Celsius"
+
+        />
+
+
+
+
+
+
+
+</LinearLayout>
